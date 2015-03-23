@@ -1,0 +1,50 @@
+﻿body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #FFFFFD;
+    color: #1B346C;
+}
+
+h1{
+    text-align: center;
+    color: #F54B1A
+}
+
+a{
+    color: #02ACE9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover, 
+a:focus{
+    color: #F54B1A;
+}
+
+tr#artist-key{
+    display: none;
+}
+
+div{
+    width: 620px;
+    margin: 0 auto;
+    background-color: #C3CED0;
+    border: 3px solid #01ABE9; 
+    padding: 20px;
+}
+
+td{
+    padding: 5px;
+}
+
+.noborder{
+    border: none;
+    width: 80%;
+}
+
+.aspNetHidden{
+    display: none;
+}
+
+.selectartist{
+    color: #F54B1A;
+}

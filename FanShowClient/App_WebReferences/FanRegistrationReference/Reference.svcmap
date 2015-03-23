@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f0931be0-89f6-4d08-b2fb-e1b383a58beb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1137/FanRegistrationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FanRegistrationService.wsdl" MetadataType="Wsdl" ID="aaa745f3-c312-4940-ac10-afc090881e65" SourceId="1" SourceUrl="http://localhost:1137/FanRegistrationService.svc?wsdl" />
+    <MetadataFile FileName="FanRegistrationService.xsd" MetadataType="Schema" ID="f55d2266-149c-425e-acb1-208c33d5f3ef" SourceId="1" SourceUrl="http://localhost:1137/FanRegistrationService.svc?xsd=xsd2" />
+    <MetadataFile FileName="FanRegistrationService.disco" MetadataType="Disco" ID="d4e8c0d3-724e-49d1-9a59-75feb8951054" SourceId="1" SourceUrl="http://localhost:1137/FanRegistrationService.svc?disco" />
+    <MetadataFile FileName="FanRegistrationService1.xsd" MetadataType="Schema" ID="a9b72788-c05d-4874-badc-0b6b981ded0c" SourceId="1" SourceUrl="http://localhost:1137/FanRegistrationService.svc?xsd=xsd0" />
+    <MetadataFile FileName="FanRegistrationService2.xsd" MetadataType="Schema" ID="ef00949c-e06d-43d1-a0ac-c9eedf6a6f4f" SourceId="1" SourceUrl="http://localhost:1137/FanRegistrationService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
