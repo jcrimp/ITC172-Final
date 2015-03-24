@@ -6,7 +6,7 @@
 
 h1{
     text-align: center;
-    color: #F54B1A
+    color: #F54B1A;
 }
 
 a{
@@ -47,4 +47,9 @@ td{
 
 .selectartist{
     color: #F54B1A;
+}
+
+.artist-name{ 
+    color: #F54B1A;
+    margin-bottom: .5em;
 }

@@ -79,7 +79,7 @@ public class FanRegistrationService : IFanRegistrationService
         List<ShowListByArtist> shows = new List<ShowListByArtist>();
 
         var shw = from s in showTrackerDb.Shows
-                  from sd in showTrackerDb.ShowDetails
+                  from sd in s.ShowDetails
                   where sd.ArtistKey == artKey
                   select new { s.ShowName, s.ShowDate, s.ShowTime, s.ShowTicketInfo, sd.Artist.ArtistName };
 

@@ -10,12 +10,22 @@
 <body>
     <form id="form1" runat="server">
     <div>
+        <asp:LinkButton ID="lbLogOut" runat="server" OnClick="lbLogOut_Click">Log Out</asp:LinkButton>
         <h1>Search for Shows by Artist</h1>
-        <asp:CheckBoxList ID="CheckBoxList1" runat="server"></asp:CheckBoxList>
+        <asp:RadioButtonList ID="radioListArt" runat="server"></asp:RadioButtonList>
         <asp:Button ID="btnSearch" runat="server" Text="Search" OnClick="btnSearch_Click" />
         <asp:ListView ID="ListView1" runat="server">
             <ItemTemplate>
-                <h2>
+                <h2 class="artist-name
+                    
+                    
+                    
+                    
+                    ">
+
+
+
+
                     <asp:Label ID="Label1" runat="server" Text='<%# Eval("ArtistName") %>'></asp:Label>
                 </h2>
                 <h3>
@@ -26,6 +36,7 @@
                     <asp:Label ID="Label4" runat="server" Text='<%# Eval("ShowTime") %>'></asp:Label><br />
                     <asp:Label ID="Label5" runat="server" Text='<%# Eval("ShowTicketInfo") %>'></asp:Label>
                 </p>
+                <hr />
 
             </ItemTemplate>
         </asp:ListView>
